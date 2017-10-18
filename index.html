@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Dersleri</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="genel">
+	<div class="ust">
+	<img src="img/css1.jpg" style="width: 990px; height: 150px;" ;/>	
+
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Anasayfa</a></li>
+			<li><a href="dersler.html">Dersler</a></li>
+			<li><a href="hakkimda.html">Hakkında</a></li>
+			<li><a href="iletisim.html">İletisim</a></li>
+
+		</ul>
+		
+
+	</div>
+	<div class="icerik">
+		<div class="icerik-sag">
+			
+			<div class="icerik-icerik">
+			<p><h2>CSS Nedir?</h2></p>
+<p>CSS bir kısaltmadır. "Cascading Style Sheets" kelimesinin baş harflerinden oluşur. Dilimizdeki anlamı: Basamaklı Stil Sayfası.
+Stiller, bir HTML elementinin nasıl görüneceğini belirleme olanağı sağlar.Stiller HTML 4.0'da bir problemi çözmemizi sağlar. Siteyi görselleştirme!
+HTML dosyamızın daha anlaşılır olmasını sağlar. Stillerimiz tek bir dosyada toplanır ve kolaylıkla okunur - değiştirilir.
+Stil dosyalarımızın uzantısı *.css dir. CSS Dosyası birçok stil barındırabilir.</p>
+			</div>
+			<div class="icerik-icerik">
+			<p><h2>CSS Örneği</h2></p>
+
+<p>Bir css ifadesi her zaman noktalı virgül (;) ile biter. İfadeler bir kıvrımlı parantez içinde yer alır. Aşağıdaki örneğe bakalım:
+   p { color: red; text-align: center; }
+
+Yukarıda tek satırda belirttiğimiz kodları istersek aşağıdaki şekilde de yazabiliriz. Daha anlaşılır olacaktır:
+
+
+
+
+   p {
+      color: red;
+      text-align: center;
+   }
+   </p>
+
+			</div>
+			<div class="icerik-icerik">
+			<p><h2>Class Kullanımı</h2></p>
+
+<p>Bir HTML kaynağına baktığınızda bir element (tag) özelliği olarak class="stil" şeklinde bir özellik belirtildiğini 
+görebilirsiniz. Peki neden buna gerek duymuşlar? Örneğin aşağıdaki HTML kodunu inceleyelim:
+Yukarıdaki div elementi içinde yer alan class="stil", o div elementi için CSS özellikleri belirtmemizi sağlayan bir yoldur. 
+CSS dosyamızda şu şekilde bir ifade varsa:
+
+   .stil {
+      font: 10pt Tahoma, Verdana;
+      color: blue;
+   }
+   
+
+Nokta (.) ile başlayan bir stil oluşturduk ve adını biz verdik. Bu demektir ki class="stil" ile belirttiğimiz tüm elementler
+ 10 punto Tahoma yazı tipinde ve mavi (blue) renginde olacaktır. Tabi istersek sadece tek bir elementte geçerli olmasını sağlayabiliriz.
+ Örneğin sadece DIV elementlerinde geçerli olmasını istiyorsak:
+
+   div.stil {
+      font: 10pt Tahoma, Verdana;
+      color: blue;
+   }
+   
+
+".stil" yani seçim adımızın başına div getirmemiz yeterli olacaktır. Bu durumda bu CSS kodu sadece DIV elementlerinde
+ kullanılabilir olacaktır.
+
+CLASS özelliği kullanmanın bize sağlayacağı yararlara şöyle bir bakalım:
+
+Kendimizin adlandırdığı özel stiller yaratmak ve kullanmak
+Bir stili birden fazla elementte kullanabilmek
+Stillere CSS de yer verip HTML kodlarımızı sürekli tekrarlanan uzun CSS kodlarından arındırmak
+ID Kullanımı
+
+ID özelliği ile de stiller yaratabiliriz. CLASS'tan farklı yanları:
+
+Sadece tek bir elementte kullanılabilir.
+Aynı id değeri iki elemente verilemez (Her id sadece tek bir elementte kullanılabilir).
+Stil dosyamızda CLASS'da . (nokta) kullanırdık, ancak id özelliğine göre stilleme yapacaksak # (diyez) kullanırız.</p>
+
+			</div>
+		</div>
+		<div class="icerik-sol">
+			<h1>Kategoriler</h1>
+<ul>
+			<li><a href="">Html Dersleri</a></li>
+			<li><a href="">Css Dersleri</a></li>
+			<li><a href="">Php Dersleri</a></li>
+			<li><a href="">Youtube Dersleri</a></li>
+			
+			<li><a href="">C Dersleri</a></li>
+			<li><a href="">C++ Dersleri</a></li>
+			<li><a href="">Java Dersleri</a></li>
+			<li><a href="">C# Dersleri</a></li>
+
+		</ul>
+
+
+		</div>
+		
+	</div>	
+<div class="alt"></div>
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>
